@@ -1,0 +1,34 @@
+# Секреты и локальные настройки — никогда не коммитить
+.env
+.env.local
+.env.*.local
+
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Логи бота (могут содержать вопросы пользователей)
+logs/*.log
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Portable Git (локально, не для репозитория)
+tools/MinGit/
+tools/*.zip
